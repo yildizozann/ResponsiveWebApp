@@ -1,0 +1,554 @@
+body {
+  font-family: sans-serif;
+}
+
+.ozi {
+  background-color: #044dc3;
+  font-size: 1em;
+  height: 74;
+  text-align: left;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 218.99px;
+  color: #ffffff;
+}
+
+.navbar {
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.middle {
+  position: relative;
+}
+.middle input {
+  border-radius: 28px;
+  width: 400px;
+  height: 50px;
+  border: 2px solid #edf1f2;
+}
+
+.middle button {
+  border-radius: 28px;
+  width: 66px;
+  height: 40px;
+  background-color: #51b549;
+  color: #ffffff;
+  border: 2px solid #edf1f2;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.right button {
+  border-radius: 28px;
+  width: 142px;
+  height: 50px;
+  background-color: #044dc3;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.right button:hover {
+  opacity: 0.8;
+}
+
+.search {
+  padding-left: 30px;
+}
+
+.search:focus {
+  outline: none;
+}
+.right {
+  position: relative;
+}
+
+.numberSepet {
+  background-color: #ff5b4d;
+  text-align: center;
+  font-size: 16px;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  color: #ffffff;
+  position: absolute;
+  right: 1px;
+  bottom: 35px;
+}
+.kargo {
+  background-color: #f54257;
+  height: 69.22px;
+  width: 343px;
+  border-radius: 16px;
+  font-size: 15px;
+  color: #ffffff;
+  position: absolute;
+  right: 1px;
+  top: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.tbar {
+  background-color: #ffce00;
+  height: 5px;
+  width: 210px;
+  border-radius: 22px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: space-around;
+}
+.bbar {
+  background-color: #d01d32;
+  height: 5px;
+  width: 73px;
+  border-radius: 22px;
+}
+.price {
+  color: #ffce00;
+  font-size: 15px;
+}
+.category {
+  font-size: 13px;
+  padding-top: 5px;
+  padding-left: 218.99px;
+  font-family: Source Sans Pro, Regular;
+  text-align: left;
+}
+/* berke h1 ile kategori kısmını sor padding left yapmadan nasıl yapılabilrdi */
+.store {
+  color: #51b549;
+}
+.menu {
+  font-size: 24px;
+  padding-top: 5px;
+  padding-left: 218.99px;
+  font-family: Source Sans Pro, Regular;
+  text-align: left;
+  color: #044dc3;
+  padding-top: 27px;
+}
+
+.categorys {
+  width: 1480px;
+  padding-top: 20px;
+  padding-left: 220px;
+  padding-right: 220px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.rec1 {
+  background-color: #044dc3;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  height: 50px;
+  width: 195px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.rec2 {
+  background-color: white;
+  border: 1px solid #e2e7e9;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  height: 50px;
+  width: 195px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #707070;
+}
+.menu2 {
+  font-size: 20px;
+  padding-top: 70px;
+  padding-left: 240px;
+  font-family: Source Sans Pro, Regular;
+  text-align: left;
+  color: #707070;
+}
+.products {
+  padding-top: 10px;
+  padding-left: 220px;
+  padding-right: 220px;
+  width: 1480px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.product1 {
+  height: 400px;
+  width: 272px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border: 1px solid #e2e7e9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+}
+.macbook {
+  border-radius: 10px;
+}
+.info {
+  text-align: left;
+  padding-left: 15px;
+  font: normal normal 600 15px/17px Source Sans Pro;
+  color: #555555;
+}
+.shipping {
+  text-align: left;
+  padding-right: 130px;
+  font: normal normal 600 15px/13px Source Sans Pro;
+  color: #51b549;
+}
+.money {
+  text-align: left;
+  padding-right: 170px;
+  font: normal normal 600 16px/13px Source Sans Pro;
+  color: #000000;
+}
+.sepeteEkle {
+  height: 40px;
+  width: 242px;
+  border-radius: 22px;
+  border: 1px solid #044dc3;
+  background-color: white;
+  color: #044dc3;
+  font: 15px Source Sans Pro;
+}
+.bottom {
+  height: 290px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 180px;
+  padding-right: 200px;
+}
+.first {
+  width: 480px;
+  height: 153px;
+  margin-bottom: 105px;
+  background-color: #ffeae8;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.infoAnBbutton {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.botText {
+  font-size: 24px;
+  color: #707070;
+  text-align: left;
+  padding-left: 25px;
+}
+.bottomPic {
+  border-radius: 10px;
+  display: flex;
+  order: -1;
+  margin-left: 20px;
+}
+.second {
+  width: 480px;
+  height: 153px;
+  margin-bottom: 105px;
+  background-color: #e8f1ff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.third {
+  width: 480px;
+  height: 153px;
+  margin-bottom: 105px;
+  background-color: #e2f7e1;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.firstB {
+  width: 104;
+  height: 30;
+  border-radius: 15px;
+  background-color: #ffffff;
+  border: none;
+  color: #e64e41;
+  font-size: 13px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.pageBottom {
+  width: 2048px;
+  height: 1034px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+.mask {
+  padding-bottom: 140px;
+}
+.qrcode {
+  padding-bottom: 30px;
+  padding-right: 40px;
+}
+.whiteArea {
+  width: 1480px;
+  height: 220px;
+  background-color: white;
+  border-radius: 111px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 75px;
+}
+.qrMetin {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.metin {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+.downFirst {
+  font-size: 18px;
+  color: #000000;
+  font: normal normal bold 18px/23px Source Sans Pro;
+}
+.downSecond {
+  padding-bottom: 10px;
+  font: normal normal normal 16px/20px Source Sans Pro;
+}
+
+.pageBottom2Box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.semboller {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.cıceksepetiText {
+  width: 454px;
+  height: 63px;
+  color: #000000;
+  text-align: left;
+  font: normal normal normal 15px/22px Source Sans Pro;
+}
+.dotted {
+  border: none;
+  border-left: 1px dashed #9b9b9b;
+  color: #f2f2f2;
+  height: 266.03px;
+}
+.rightSide {
+  display: flex;
+  justify-content: space-around;
+}
+.footerMenu {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  text-align: center;
+  color: #044dc3;
+}
+.sub-menuItem {
+  list-style-type: none;
+  text-align: center;
+  padding-right: 45px;
+  color: #000000;
+  margin: 10px;
+}
+.pageBottom3Box {
+  width: 1320px;
+  text-align: center;
+  font: normal normal normal 15px/22px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+}
+.footer {
+  background-color: #e6e6e6;
+  width: auto;
+  color: #000000;
+  text-align: center;
+  font: normal normal normal 13px/17px Source Sans Pro;
+}
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 800px) and (max-width: 1400px) {
+  .categorys {
+    width: auto;
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .products {
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .pageBottom {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+  }
+  .bottom {
+    height: 290px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .ozi {
+    font-size: 1em;
+    height: 74;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 100px;
+  }
+  .m1 {
+    padding-left: 20px;
+  }
+  .pageBottom2Box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 320px) and (max-width: 850px) {
+  .categorys {
+    width: auto;
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .products {
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .pageBottom {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 300px;
+  }
+  .bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .b1 {
+    margin-bottom: 0px;
+  }
+  .ozi {
+    font-size: 1em;
+    height: 74;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 100px;
+  }
+  .m1 {
+    padding-left: 20px;
+  }
+  .pageBottom2Box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
+  .right {
+    display: none;
+  }
+  .whiteArea {
+    display: none;
+  }
+  .cıceksepeti {
+    margin-top: 400px;
+  }
+  .ozi {
+    display: none;
+  }
+}
+@media only screen and (max-width: 630px) {
+  .middle input {
+    border-radius: 0px;
+  }
+  .middle button {
+    border-radius: 0px;
+  }
+  .bottom {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .f1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .pageBottom {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 90px;
+  }
+  .ciceksepeti {
+    padding-left: 300px;
+  }
+}
